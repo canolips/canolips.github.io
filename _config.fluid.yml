@@ -1,0 +1,92 @@
+#---------------------------
+# Hexo Theme Fluid 配置
+#---------------------------
+
+# 网站标题
+navbar:
+  brand: Canolips
+  # 导航栏菜单
+  menu:
+    - { key: "首页", link: "/", icon: "icon-home-fill" }
+    - { key: "生活", link: "/categories/生活/", icon: "icon-file-text-fill" }
+    - { key: "技术", link: "/categories/技术/", icon: "icon-code-slash" }
+    - { key: "影像", link: "/categories/影像/", icon: "icon-film" }
+    - { key: "碎语", link: "/categories/碎语/", icon: "icon-chat-smile-fill" }
+    - { key: "关于", link: "/about/", icon: "icon-person-fill" }
+
+# 首页
+index:
+  # 首页 Banner 设置
+  banner:
+    enabled: true
+    title: "你好，我是 Canolips"
+    subtitle: "记录生活 · 分享技术 · 展示视频"
+    # 背景图（留空则使用默认渐变色）
+    # background: ""
+
+  # 最新文章数量
+  post:
+    count: 5
+
+# 文章页面
+post:
+  # 是否显示封面
+  cover:
+    enabled: true
+    # 封面位置：left/center/right
+    align: center
+
+  # 是否显示元信息（发布日期、分类、标签）
+  meta:
+    enabled: true
+    date: true
+    category: true
+    tag: true
+
+  # 文字排版
+  typography: true
+
+  # 代码块
+  code:
+    copy_btn: true
+
+# 侧边栏
+sidebar:
+  about:
+    enabled: true
+    # 头像
+    avatar: /img/avatar.png
+    # 描述
+    description: "记录生活、分享技术、展示视频"
+
+# 页脚
+footer:
+  # 显示版权信息
+  copyright: true
+  since: 2026
+
+# 暗色模式
+dark_mode:
+  enable: true
+  default: auto
+
+# 搜索
+search:
+  enable: true
+  algolia: false
+  local: true
+
+# 评论
+comments:
+  enable: false
+
+# 统计
+statistics:
+  enable: false
+
+# 视频播放
+video:
+  enable: true
+  # B站视频支持
+  bilibili:
+    enable: true
